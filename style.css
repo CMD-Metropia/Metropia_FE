@@ -100,6 +100,16 @@ nav,
 section {
   display: block;
 }
+
+button {
+  font-size: 12px;
+  line-height: 18px;
+  color: #666;
+  background-color: transparent;
+  border: none; /*버튼 눌리는 효과 삭제*/
+  cursor: pointer;
+}
+
 body {
   line-height: 1;
 }
@@ -121,4 +131,111 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.head {
+  position: absolute;
+  height: 105px;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+
+  background: #303b61;
+}
+
+.logo {
+  position: absolute;
+  width: 89px;
+  height: 26px;
+  left: 47px;
+  top: 15px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+/* .search_wrap {
+  position: absolute;
+  width: 355px;
+  height: 43px;
+  left: 10px;
+  top: 52px;
+} */
+
+.btn-search {
+  background-image: url("image/search_icon.svg");
+  background-size: 20px;
+  position: absolute;
+  right: 23px;
+  bottom: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.search_box {
+  position: absolute;
+  height: 43px;
+  width: 355px;
+  left: 2.67%;
+  right: 2.67%;
+  bottom: 10px;
+  background: #3a4569;
+  border-radius: 100px;
+  border: none;
+}
+
+.body {
+  position: absolute;
+  width: 375px;
+  height: 707px;
+  left: 0px;
+  top: 105px;
+
+  background-image: url("image/노선도1.jpg");
+}
+
+.filter-wrap {
+  display: flex;
+  width: 425px;
+  top: 10px;
+}
+
+#filter {
+  flex-basis: content;
+}
+
+.scale-bar {
+  position: absolute;
+  width: 40px;
+  height: 80px;
+  left: 320px;
+  top: 579px;
+
+  background: #ffffff;
+  border: 0.4px solid rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.plus {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  left: 14px;
+  top: 14px;
+}
+
+.minus {
+  position: absolute;
+  width: 13px;
+  height: 1px;
+  left: 14px;
+  top: 59px;
 }
