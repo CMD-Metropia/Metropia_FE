@@ -104,7 +104,6 @@ section {
 button {
   font-size: 12px;
   line-height: 18px;
-  color: #666;
   background-color: transparent;
   border: none; /*버튼 눌리는 효과 삭제*/
   cursor: pointer;
